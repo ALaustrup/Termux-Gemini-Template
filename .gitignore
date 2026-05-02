@@ -1,0 +1,8 @@
+.npm/
+.gemini/
+.gyp/
+node_modules/
+MyApp/node_modules/
+.bash_history
+storage/
+.gitconfig
