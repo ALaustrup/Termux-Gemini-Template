@@ -1,0 +1,104 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@11.13.0
+2 info using node@v25.8.2
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm install @google/gemini-cli
+7 verbose argv "install" "--global" "@google/gemini-cli" "--ignore-scripts"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2026-05-02T23_31_11_157Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2026-05-02T23_31_11_157Z-debug-0.log
+10 silly packumentCache heap:1174405120 maxSize:293601280 maxEntrySize:146800640
+11 silly logfile done cleaning log files
+12 silly idealTree buildDeps
+13 silly fetch manifest @google/gemini-cli@*
+14 silly packumentCache full:https://registry.npmjs.org/@google%2fgemini-cli cache-miss
+15 http fetch GET 200 https://registry.npmjs.org/@google%2fgemini-cli 359ms (cache miss)
+16 silly packumentCache full:https://registry.npmjs.org/@google%2fgemini-cli set size:undefined disposed:false
+17 silly placeDep ROOT @google/gemini-cli@0.40.1 OK for:  want: *
+18 silly fetch manifest node-pty@^1.0.0
+19 silly packumentCache full:https://registry.npmjs.org/node-pty cache-miss
+20 silly fetch manifest @github/keytar@^7.10.6
+21 silly packumentCache full:https://registry.npmjs.org/@github%2fkeytar cache-miss
+22 silly fetch manifest @lydell/node-pty@1.1.0
+23 silly packumentCache full:https://registry.npmjs.org/@lydell%2fnode-pty cache-miss
+24 silly fetch manifest @lydell/node-pty-linux-x64@1.1.0
+25 silly packumentCache full:https://registry.npmjs.org/@lydell%2fnode-pty-linux-x64 cache-miss
+26 silly fetch manifest @lydell/node-pty-win32-x64@1.1.0
+27 silly packumentCache full:https://registry.npmjs.org/@lydell%2fnode-pty-win32-x64 cache-miss
+28 silly fetch manifest @lydell/node-pty-darwin-x64@1.1.0
+29 silly packumentCache full:https://registry.npmjs.org/@lydell%2fnode-pty-darwin-x64 cache-miss
+30 silly fetch manifest @lydell/node-pty-win32-arm64@1.1.0
+31 silly packumentCache full:https://registry.npmjs.org/@lydell%2fnode-pty-win32-arm64 cache-miss
+32 http fetch GET 200 https://registry.npmjs.org/node-pty 134ms (cache miss)
+33 silly packumentCache full:https://registry.npmjs.org/node-pty set size:undefined disposed:false
+34 silly fetch manifest @lydell/node-pty-darwin-arm64@1.1.0
+35 silly packumentCache full:https://registry.npmjs.org/@lydell%2fnode-pty-darwin-arm64 cache-miss
+36 http fetch GET 200 https://registry.npmjs.org/@lydell%2fnode-pty-darwin-arm64 83ms (cache miss)
+37 silly packumentCache full:https://registry.npmjs.org/@lydell%2fnode-pty-darwin-arm64 set size:undefined disposed:false
+38 http fetch GET 200 https://registry.npmjs.org/@lydell%2fnode-pty-linux-x64 225ms (cache miss)
+39 silly packumentCache full:https://registry.npmjs.org/@lydell%2fnode-pty-linux-x64 set size:undefined disposed:false
+40 http fetch GET 200 https://registry.npmjs.org/@lydell%2fnode-pty-win32-arm64 245ms (cache miss)
+41 silly packumentCache full:https://registry.npmjs.org/@lydell%2fnode-pty-win32-arm64 set size:undefined disposed:false
+42 http fetch GET 200 https://registry.npmjs.org/@lydell%2fnode-pty 247ms (cache miss)
+43 silly packumentCache full:https://registry.npmjs.org/@lydell%2fnode-pty set size:undefined disposed:false
+44 http fetch GET 200 https://registry.npmjs.org/@lydell%2fnode-pty-darwin-x64 247ms (cache miss)
+45 silly packumentCache full:https://registry.npmjs.org/@lydell%2fnode-pty-darwin-x64 set size:undefined disposed:false
+46 http fetch GET 200 https://registry.npmjs.org/@github%2fkeytar 249ms (cache miss)
+47 silly packumentCache full:https://registry.npmjs.org/@github%2fkeytar set size:undefined disposed:false
+48 http fetch GET 200 https://registry.npmjs.org/@lydell%2fnode-pty-win32-x64 249ms (cache miss)
+49 silly packumentCache full:https://registry.npmjs.org/@lydell%2fnode-pty-win32-x64 set size:undefined disposed:false
+50 silly placeDep node_modules/@google/gemini-cli @github/keytar@7.10.6 OK for: @google/gemini-cli@0.40.1 want: ^7.10.6
+51 silly placeDep node_modules/@google/gemini-cli @lydell/node-pty@1.1.0 OK for: @google/gemini-cli@0.40.1 want: 1.1.0
+52 silly placeDep node_modules/@google/gemini-cli @lydell/node-pty-darwin-arm64@1.1.0 OK for: @google/gemini-cli@0.40.1 want: 1.1.0
+53 silly placeDep node_modules/@google/gemini-cli @lydell/node-pty-darwin-x64@1.1.0 OK for: @google/gemini-cli@0.40.1 want: 1.1.0
+54 silly placeDep node_modules/@google/gemini-cli @lydell/node-pty-linux-x64@1.1.0 OK for: @google/gemini-cli@0.40.1 want: 1.1.0
+55 silly placeDep node_modules/@google/gemini-cli @lydell/node-pty-win32-arm64@1.1.0 OK for: @google/gemini-cli@0.40.1 want: 1.1.0
+56 silly placeDep node_modules/@google/gemini-cli @lydell/node-pty-win32-x64@1.1.0 OK for: @google/gemini-cli@0.40.1 want: 1.1.0
+57 silly placeDep node_modules/@google/gemini-cli node-pty@1.1.0 OK for: @google/gemini-cli@0.40.1 want: ^1.0.0
+58 silly fetch manifest node-addon-api@^8.3.0
+59 silly packumentCache full:https://registry.npmjs.org/node-addon-api cache-miss
+60 silly fetch manifest @lydell/node-pty-linux-arm64@1.1.0
+61 silly packumentCache full:https://registry.npmjs.org/@lydell%2fnode-pty-linux-arm64 cache-miss
+62 silly fetch manifest node-addon-api@^7.1.0
+63 silly packumentCache full:https://registry.npmjs.org/node-addon-api cache-miss
+64 http fetch GET 200 https://registry.npmjs.org/@lydell%2fnode-pty-linux-arm64 89ms (cache miss)
+65 silly packumentCache full:https://registry.npmjs.org/@lydell%2fnode-pty-linux-arm64 set size:undefined disposed:false
+66 http fetch GET 200 https://registry.npmjs.org/node-addon-api 90ms (cache miss)
+67 silly packumentCache full:https://registry.npmjs.org/node-addon-api set size:undefined disposed:false
+68 http fetch GET 200 https://registry.npmjs.org/node-addon-api 102ms (cache miss)
+69 silly packumentCache full:https://registry.npmjs.org/node-addon-api set size:undefined disposed:false
+70 silly placeDep node_modules/@google/gemini-cli node-addon-api@8.7.0 OK for: @github/keytar@7.10.6 want: ^8.3.0
+71 silly placeDep node_modules/@google/gemini-cli @lydell/node-pty-linux-arm64@1.1.0 OK for: @lydell/node-pty@1.1.0 want: 1.1.0
+72 silly placeDep node_modules/@google/gemini-cli/node_modules/node-pty node-addon-api@7.1.1 OK for: node-pty@1.1.0 want: ^7.1.0
+73 silly reify moves {}
+74 http cache node-addon-api@https://registry.npmjs.org/node-addon-api/-/node-addon-api-8.7.0.tgz 1ms (cache hit)
+75 http cache node-pty@https://registry.npmjs.org/node-pty/-/node-pty-1.1.0.tgz 0ms (cache hit)
+76 http cache node-addon-api@https://registry.npmjs.org/node-addon-api/-/node-addon-api-7.1.1.tgz 0ms (cache hit)
+77 http cache @github/keytar@https://registry.npmjs.org/@github/keytar/-/keytar-7.10.6.tgz 0ms (cache hit)
+78 http cache @lydell/node-pty@https://registry.npmjs.org/@lydell/node-pty/-/node-pty-1.1.0.tgz 0ms (cache hit)
+79 http cache @google/gemini-cli@https://registry.npmjs.org/@google/gemini-cli/-/gemini-cli-0.40.1.tgz 0ms (cache hit)
+80 silly tarball no local data for node-addon-api@https://registry.npmjs.org/node-addon-api/-/node-addon-api-8.7.0.tgz. Extracting by manifest.
+81 silly tarball no local data for node-pty@https://registry.npmjs.org/node-pty/-/node-pty-1.1.0.tgz. Extracting by manifest.
+82 silly tarball no local data for node-addon-api@https://registry.npmjs.org/node-addon-api/-/node-addon-api-7.1.1.tgz. Extracting by manifest.
+83 silly tarball no local data for @github/keytar@https://registry.npmjs.org/@github/keytar/-/keytar-7.10.6.tgz. Extracting by manifest.
+84 silly tarball no local data for @lydell/node-pty@https://registry.npmjs.org/@lydell/node-pty/-/node-pty-1.1.0.tgz. Extracting by manifest.
+85 silly tarball no local data for @google/gemini-cli@https://registry.npmjs.org/@google/gemini-cli/-/gemini-cli-0.40.1.tgz. Extracting by manifest.
+86 http fetch GET 200 https://registry.npmjs.org/@lydell/node-pty/-/node-pty-1.1.0.tgz 125ms (cache miss)
+87 http fetch GET 200 https://registry.npmjs.org/node-addon-api/-/node-addon-api-8.7.0.tgz 137ms (cache miss)
+88 http fetch GET 200 https://registry.npmjs.org/node-addon-api/-/node-addon-api-7.1.1.tgz 137ms (cache miss)
+89 http fetch GET 200 https://registry.npmjs.org/@github/keytar/-/keytar-7.10.6.tgz 601ms (cache miss)
+90 http fetch GET 200 https://registry.npmjs.org/node-pty/-/node-pty-1.1.0.tgz 3503ms (cache miss)
+91 http fetch GET 200 https://registry.npmjs.org/@google/gemini-cli/-/gemini-cli-0.40.1.tgz 3767ms (cache miss)
+92 silly ADD node_modules/@google/gemini-cli
+93 silly ADD node_modules/@google/gemini-cli/node_modules/node-addon-api
+94 silly ADD node_modules/@google/gemini-cli/node_modules/node-pty
+95 silly ADD node_modules/@google/gemini-cli/node_modules/node-pty/node_modules/node-addon-api
+96 silly ADD node_modules/@google/gemini-cli/node_modules/@lydell/node-pty
+97 silly ADD node_modules/@google/gemini-cli/node_modules/@github/keytar
+98 verbose cwd /data/data/com.termux/files/home
+99 verbose os Linux 6.6.77-android15-8-31998796-abogkiS938USQS9BZCL-4k
+100 verbose node v25.8.2
+101 verbose npm  v11.13.0
+102 verbose exit 0
+103 info ok
